@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { userDataContex } from '../contex/userContex'
+import { userDataContex } from '../contex/UserContex'
 
 function Card({image}) {
     const {serverUrl,userData, setUserData ,backendImage,setBackendImage ,frontendImage,setFrontendImage,selectedImage,setSelectedImage} = useContext(userDataContex)
